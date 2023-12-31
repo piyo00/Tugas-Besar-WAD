@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth ;
+}
+
+li, a {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 19.2px;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 19.20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+    
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #ed0a12;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(237, 10, 18,1);
+    border: none;
+    border-radius: 50px;    
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(237, 10, 18,0.8);
+}
+
+.container {
+    font-family: 'Inter', sans-serif;
+    height: 800px;
+    padding: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+}
+
+.hero-text {
+    font-family: 'Inter', sans-serif;
+    width: 600px;
+}
+
+.hero-text h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    margin-bottom: 50px;
+
+}
+
+.hero-text p {
+    font-family: 'Inter', sans-serif;   
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.layanan {
+    font-family: 'Inter', sans-serif;
+    height: 400px;
+    padding: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px; /* Added bottom spacing */
+}
+
+.container-2 {
+    font-family: 'Inter', sans-serif;
+    height: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-section .card {
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px; /* Increase the width of the card */
+    height: 400px; /* Increase the height of the card */
+    border-radius: 25px; /* Add round corner */
+}
+
+.content-section .card img {
+    width: auto;
+    height: auto;
+    margin-top: 25px; /* Add top margin to create space between image and button */
+    margin-bottom: 25px; /* Add bottom margin to create space between image and button */
+}
+
+.content-section .card button {
+    margin-top: 25px; /* Add margin to create space between image and button */
+}
+
+.content-section .card:after {
+    content: "";
+    display: block;
+    height: 20px; /* Add bottom spacing */
+}
+
+.kenapakami {
+    font-family: 'Inter', sans-serif;
+    height: 600px;
+    padding: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px; /* Added bottom spacing */
+    margin-top: 50px; /* Added top spacing */
+}
+
+.container-3 {
+    font-family: 'Inter', sans-serif;
+    height: 150px;
+    padding: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-bottom: 500px; /* Add bottom margin */
+}
+
+
+.container-3 .content-section-2 .card {
+    flex: 1;
+    margin: 0px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row; /* Change flex-direction to row */
+    align-items: center; /* Align items to the center */
+    justify-content: flex-start; /* Adjust the alignment of image and text */
+    width: 800px; /* Increase the width of the card */
+    height: 150px; /* Increase the height of the card */
+    border-radius: 25px; /* Add round corner */
+    margin-bottom: 20px; /* Add bottom margin to create spacing between cards */
+}
+.container-3 .content-section-2 .card img {
+    margin-left: 20px;
+    margin-right: 50px; /* Add right margin to create space between image and h2 */
+}
+
+.footer{
+background:red;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+}
+
+.footer .row a:hover{
+color:red
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+.footer{
+background:red;
+padding:30px 0px;
+font-family: 'Inter', sans-serif;
+text-align:center;
+color: white; /* Change text color to white */
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color: white; /* Change text color to white */
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color: white; /* Change text color to white */
+}
+
+.footer .row a:hover{
+color:red;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+color: white; /* Change text color to white */
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+color: white; /* Change text color to white */
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+
